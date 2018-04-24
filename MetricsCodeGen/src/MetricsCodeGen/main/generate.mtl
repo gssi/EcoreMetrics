@@ -1,0 +1,12 @@
+[comment encoding = UTF-8 /]
+[module generate('http://org.mdeforge.emf.metric')]
+
+[template public generateElement(container : Container)]
+[comment @main/]
+[file (container.artifact.concat('.csv'), false, 'UTF-8')]
+metric;value 
+[for (m : SimpleMetric | container.metrics)]
+	[m.name/];[m.value/]
+[/for]
+[/file]
+[/template]
