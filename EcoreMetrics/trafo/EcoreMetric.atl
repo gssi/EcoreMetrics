@@ -38,6 +38,7 @@ rule ATL2Metrics{
 										->append(thisModule.getLonelyClass('IN'))
 										->append(thisModule.getMinNumFeatures('IN'))
 										->append(thisModule.getNumPrecedessor('IN'))
+							
 										
   	)
 }
@@ -302,6 +303,7 @@ helper def: getMaxLevelOfGeneralizzation(model : String): Integer =
 	thisModule.max(Ecore!EClass.allInstancesFrom(model)->collect(e | e.getLevelOfGeneralizzation(0)));
 
 
+
 helper context Ecore!EClass def: getLevelOfGeneralizzation(cont : Integer): Integer =
 	if cont < 50
 		then
@@ -525,7 +527,7 @@ rule NumAIF(modelName : String){
 	}
 }
 
-helper def: getAIF(model : String): Integer =
+helper def: getAIF(model : String): Real =
 	--Ecore!EStructuralFeature.allInstancesFrom(model)->size()/Ecore!EClass.allInstancesFrom(model)->collect(e | e.eAllStructuralFeatures)->flatten()->asSequence()->size();
 Ecore!EPackage.allInstancesFrom(model)->collect(c|c.eClassifiers->select(cl|cl.oclIsTypeOf(Ecore!EClass))->collect(f|f.eAllStructuralFeatures->select(h|not f.eStructuralFeatures->includes(h))))->flatten()->size()/Ecore!EStructuralFeature.allInstancesFrom(model)->size()
 --/Ecore!EStructuralFeature.allInstancesFrom(model)->size()

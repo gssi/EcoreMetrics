@@ -1,0 +1,28 @@
+metric;value 
+	Number of MetaClass;3
+	Number of abstract MetaClass;0
+	Number of concrete MetaClass;3
+	Number of concrete Completely Featureless MetaClass;0
+	Number of immediate Featureless MetaClass;0
+	Number of abstract immediate Featureless MetaClass;0
+	Number of concrete immediate Featureless MetaClass;0
+	Number of Total eStructuralFeature;11
+	Number of Total structural feature with inherited;11
+	Number of Completely Featureless MetaClass;0
+	Number of abstract Completely Featureless MetaClass;0
+	Number of TotalReference;5
+	Number of Opposite Reference;0
+	Number of TotalReference containment;2
+	Number of Total Attribute;6
+	Number of Total Attribute with inherited;6
+	Max generalizzation hierarchical level;0
+	Max chain of containment;50
+	Max Reference Sibiling (max fan Out);3
+	Average Reference in a (class (avg fan out);1.6666666666666667
+	Average Attribute in a class;2.0
+	AIF;0.0
+	Number of class with a super type;0
+	Max Hierarchy Sibiling;0
+	Number of lonely classes;0
+	Min number of feature in classes;3
+	Sum of Total predecessor in hierarchies;0

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metrics:Container xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:metrics="http://org.mdeforge.emf.metric" artifact="CRM">
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of MetaClass" value="8"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of abstract MetaClass" value="0"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of concrete MetaClass" value="8"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of concrete Completely Featureless MetaClass" value="1"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of immediate Featureless MetaClass" value="1"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of abstract immediate Featureless MetaClass" value="0"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of concrete immediate Featureless MetaClass" value="1"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of Total eStructuralFeature" value="15"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of Total structural feature with inherited" value="19"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of Completely Featureless MetaClass" value="1"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of abstract Completely Featureless MetaClass" value="0"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of TotalReference" value="8"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of Opposite Reference" value="4"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of TotalReference containment" value="4"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of Total Attribute" value="7"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of Total Attribute with inherited" value="9"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Max generalizzation hierarchical level" value="1"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Max chain of containment" value="50"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Max Reference Sibiling (max fan Out)" value="2"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Average Reference in a (class (avg fan out)" value="1.0"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Average Attribute in a class" value="0.875"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="AIF" value="0.26666666666666666"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of class with a super type" value="2"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Max Hierarchy Sibiling" value="2"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Number of lonely classes" value="1"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Min number of feature in classes" value="0"/>
+  <metrics xsi:type="metrics:SimpleMetric" name="Sum of Total predecessor in hierarchies" value="2"/>
+</metrics:Container>
